@@ -15,7 +15,7 @@ export const TaskCard = () => {
             <TaskCardDeleteButton />
             <TaskAddInput inputText={inputText} setInputText={setInputText}
             setTaskList={setTaskList} taskList={taskList} />
-            <Tasks inputText={inputText} taskList={taskList} />
+            <Tasks inputText={inputText} taskList={taskList} setTaskList={setTaskList} />
         </div>
     );
 };
